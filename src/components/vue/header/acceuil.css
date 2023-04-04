@@ -1,0 +1,47 @@
+.navBarBackground{
+    width: 100%;
+    height: 50px;
+    background:linear-gradient(to right,black,#03224c,black);
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+    bottom:16px;    
+}
+a{
+    text-decoration: none;
+    text-align: center;
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 18px;
+    transition:0.4s;
+    color: white;
+    position: relative;
+    left: 28%;
+}
+a:hover{
+    color:white;
+}
+.title{
+    color:orange;
+    position: relative;
+    right: 52%;
+    font-size: 33px;
+    font-weight: bold;
+    top:1px;
+}
+.colorTitle{
+    color:white;
+    font-size: 23px;
+    position: relative;
+    bottom: 6%;
+}
+
+li{
+    list-style: none;
+    float: left;
+    margin-left:2%;
+    position: relative;
+    top:8px;
+    left: 35%;
+}
+

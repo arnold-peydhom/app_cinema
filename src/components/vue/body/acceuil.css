@@ -1,0 +1,135 @@
+.row{
+    width: 100%;
+    height:540px;
+    /*background-color:gainsboro;*/
+    background-color: #193153;
+    position: relative;
+    top:-16px;
+    padding:0px;
+    margin: 0px;    
+}
+.card{
+    width: 300px;
+    height: 350px;
+    border-radius: 10px;
+    margin-left: 2.5%;
+    position: relative;
+    top:7%;
+    transition: 0.4s;
+    /*background-color: white;*/
+    background-color:#03224c;
+    float: left;
+    right: 3px;
+}
+.card:hover{
+    top:20px;
+    box-shadow: 0px 0px 10px 10px rgba(0, 191, 255, .1);
+}
+.textfield{
+    font-size: 25px;
+    font-weight: bold;
+    position: relative;
+    top:8%;
+    background: linear-gradient(to right, #ffffff, #ff6600);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.image{
+    border-radius:10px 10px 0px 0px;
+    width: 300px;       
+}
+#image{
+    height: 186px;
+}
+#textfield{
+    font-size: 25px;
+    font-weight: bold;
+    position: relative;
+    top:8%;
+    color:#ffffff;
+}
+.description{
+    color:#ffffff;
+    position: relative;
+    top: 10%;
+    opacity: 0.6;
+    text-align: center;
+}
+
+.imageFlout{
+    background-image: url('../../images/image3.jpg');
+    width: 100%;
+    height: 530px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    bottom:16px;
+    filter: blur(4.5px);
+    background-attachment: fixed;
+}
+.button{
+    background:linear-gradient(to right,black,#03224c);
+    /*background-color: #03224c;*/
+    position: relative;
+    bottom: 535px;
+    right:12%;
+    border:none;
+    color:white;
+    width: 250px;
+    height: 50px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 25%;
+}
+.color{
+    color:#ff6600;
+    text-align: center;
+}
+.amount{
+    position:relative;
+    text-align: center;
+    top:-570px;
+    font-weight: bold;
+    font-size: 18px;
+    color:white;
+    width: 300px;
+    left: 530px;
+    text-align: center;
+}
+.card2{
+    width: 300px;
+    height: 350px;
+    border-radius: 10px;
+    margin-left: 2.5%;
+    position: relative;
+    margin-top:-340px;
+    bottom:50px;
+    transition: 0.4s;
+    background-color:#ffffff;
+    float: left;
+    right: 3px;
+    border-bottom: 5px solid gainsboro;
+    transition: 0.4s;
+}
+.card2:hover{
+    bottom: 75px;
+    box-shadow: 0px 0px 10px 10px rgba(64, 95, 105, 0.4);
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+    border-radius: 12px;
+    background-color:white;
+    border: 5px solid #03224c;
+    height: 50px;
+}
+.images{
+    width: 150px;       
+    height: 150px;
+    border-radius: 150px;
+    position: relative;
+    top: 25%;
+}
+
+
